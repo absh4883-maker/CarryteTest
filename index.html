@@ -21,6 +21,13 @@
     src: url('GE_SS_Two_Medium.ttf');
     font-weight: 600;
 }
+/* আপনার ডাউনলোড করা ফন্টটি সেট করা হলো */
+@font-face {
+    font-family: 'SimplifiedArabicBold';
+    src: url('Simplified Arabic Bold.ttf'); /* নিশ্চিত করুন ফাইলটির নাম হুবহু এটাই আছে */
+    font-weight: bold;
+}
+
 @font-face {
     font-family: 'GESSTwo';
     src: url('GE_SS_Two_Bold.ttf');
@@ -125,7 +132,7 @@ body {
 
 /* Arabic VALUES */
 .value {
-    font-family: 'GESSTwo','DINArabic',sans-serif;
+    font-family: 'SimplifiedArabicBold', 'GESSTwo', sans-serif; /* প্রথম পছন্দ আপনার ফন্ট */
     font-weight: 600;
     color: #000;
     font-size: 16.5px;
@@ -136,15 +143,15 @@ body {
 .f-name-ar {
     top: 23.5%;
     right: 7.5%;
-    font-size: 21px;
-    font-family: 'GESSTwo','DINArabic',sans-serif;
+    font-size: 23px;
+    font-family: 'SimplifiedArabicBold', sans-serif;
     font-weight: 700;
     color: #000;
 }
 .f-name-en {
     top: 32.5%;
     right: 7.5%;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'OCRB','Roboto Condensed',Arial,sans-serif;
     direction: ltr;
